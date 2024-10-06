@@ -5,4 +5,4 @@ public class MyThread extends Thread {
 }
 
 MyThread myThread = new MyThread();
-myThread.run(); // This invokes the method directly, not in a new thread
+myThread.start(); // Correctly starts a new thread
